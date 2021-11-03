@@ -2,7 +2,6 @@
 
 *{
   margin: 0;
-  
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Noto Sans Mono', monospace; 
@@ -11,9 +10,6 @@
 body{
     background-color: rgb(166, 198, 214);
     margin-left: 80px;
-    
-
-
 }
 
 header{
@@ -38,7 +34,6 @@ header{
     justify-content: center;
     align-items: center;
     transform: translateX(10px);
-   
 }
 .icon_menu i{
     font-size: 20px;
