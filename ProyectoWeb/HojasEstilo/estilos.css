@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #e4e4e4;
+    background-color: #d1d1d1;
     margin-left: 80px;
 }
 
@@ -146,7 +146,7 @@ a.selected{
     
     width: 150px;
     height: 150px;
-    border-radius: 100%;
+    border-radius: 50%;
     margin: 10px;
     cursor: pointer;
 }
@@ -167,6 +167,49 @@ a.selected{
 
 .info__titulo{
     color: #000000;
+}
+
+.FormContacto{
+    background-color: #504e4e;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+}
+
+.FormContacto fieldset{
+    border: none;
+}
+
+.FormContacto legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #FFAEC9;
+}
+
+.camposContacto{
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.inputForm{
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    text-align: center;
 }
 /*estilos de registro*/
 

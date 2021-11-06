@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> P.P ULALA - S.I ULALA</title>
 
+    <title>ULALA</title>
+
+    <link rel="preload" href="HojasEstilo/nomalize.css" as="Style">
+    <link rel="stylesheet" href="HojasEstilo/nomalize.css">
     <link rel="stylesheet" type="text/css" href="HojasEstilo/estilos.css" > 
 
     <script src="https://kit.fontawesome.com/e324a8ef3a.js" crossorigin="anonymous"></script>
@@ -16,7 +19,6 @@
         <div class="icon_menu">
             <i class="fas fa-bell" id="btn_open"></i>
         </div>
-
     </header>
 
     <div class="menu_side" id="menu_side">
@@ -72,30 +74,63 @@
         
     </div>  
     <main class="main">
-        <div class="contenedor">
-          <section class="info">
-            <article class="info__columna">
-                <a href="iventario.html"><img src="img/inventa.png" alt="" class="info__img"></a>
-              <h2 class="info__titulo">inventarios</h2>
-            </article>
-            <article class="info__columna">
-              <a href="productos.html"><img src="img/PRODUCTO H.png" alt="" class="info__img"></a>
-              <h2 class="info__titulo">productos</h2>
-              <p class="info__txt"></p>
-            </article>
-            <article class="info__columna">
-              <a href="proveedores.html"><img src="img/proveedores.png" alt="" class="info__img"></a>
-              <h2 class="info__titulo">proveedores</h2>
-              <p class="info__txt"></p>
-            </article>
-            <article class="info__columna">
-              <a href="compras.html"><img src="img/compras.png" alt="" class="info__img"></a>
-              <h2 class="info__titulo">compras</h2>
-              <p class="info__txt"></p>
-            </article>
-          </section>
-        </div>
-      </main>
-    <script>src="js/menu.js"</script> 
+          <div class="contenedor">
+            <section class="info">
+              <article class="info__columna">
+                <a href="iventario.html"><img src="img/inventario.png" alt="" class="info__img"></a>
+                <h2 class="info__titulo">inventarios</h2>
+              </article>
+              <article class="info__columna">
+                <a href="productos.html"><img src="img/producto.png" alt="" class="info__img"></a>
+                <h2 class="info__titulo">productos</h2>
+                <p class="info__txt"></p>
+              </article>
+              <article class="info__columna">
+                <a href="proveedores.html"><img src="img/proveedor.png" alt="" class="info__img"></a>
+                <h2 class="info__titulo">proveedores</h2>
+                <p class="info__txt"></p>
+              </article>
+              <article class="info__columna">
+                <a href="compras.html"><img src="img/carrito-de-compras.png" alt="" class="info__img"></a>
+                <h2 class="info__titulo">compras</h2>
+                <p class="info__txt"></p>
+              </article>
+            </section>
+          </div>
+
+        <section>
+          <form class="FormContacto">
+            <fieldset>
+              <legend>Contacta con los desarrolladores</legend>
+              <div class="camposContacto">
+                    <div class="campo">
+                      <label>Nombre</label>
+                      <input class="inputForm" type="text" placeholder="Ingrese nombre">
+                    </div>
+
+                    <div class="campo">
+                      <label>Teléfono</label>
+                      <input class="inputForm" type="text" placeholder="Ingrese telefono">
+                    </div>
+
+                    <div class="campo">
+                      <label>Correo</label>
+                      <input class="inputForm" type="text" placeholder="Ingrese Correo">
+                    </div>
+
+                    <div class="campo">
+                      <label>Mensaje</label>
+                      <textarea></textarea>
+                    </div>
+              </div>
+
+              <div>
+                <input type="submit" value="Enviar">
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      <script>src="js/menu.js"</script> 
+    </main> 
 </body>
 </html>
