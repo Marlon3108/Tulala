@@ -1,7 +1,7 @@
 body {
  font-family: Arial, Helvetica, sans-serif;
  margin: 0;
- background: rgb(166, 198, 214);
+ background: rgb(70, 240, 55);
 }
 
 .contenedor {
@@ -51,7 +51,7 @@ input[type="password"]{
 }
 
 .button:hover{
-    background: cadetblue;
+    background: rgb(238, 22, 40);
 }
 
 p{
