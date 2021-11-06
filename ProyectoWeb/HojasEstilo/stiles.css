@@ -69,6 +69,10 @@ body {
     border-radius: 20px;
 }
 
+.login-box input[type="submit"]:hover{
+    color: #FFAEC9;
+}
+
 .login-box a {
     text-decoration: none;
     font-size: 12px;
