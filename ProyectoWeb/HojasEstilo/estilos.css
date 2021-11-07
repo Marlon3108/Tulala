@@ -222,3 +222,8 @@ a.selected{
 .menu_side_move{
     width: 250px;
 }
+
+.container h1{
+    text-align: center;
+}
+
